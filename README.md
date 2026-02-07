@@ -17,13 +17,13 @@ This project contains the preprint of a research paper and the associated R code
 ---
 
 ## 內容說明與更新日誌 / Contents & Update Log
-1. **Manuscript (PDF)**: 
+1. **Manuscript (PDF)**: [2026_DINA_Qmatrix_Robustness_Chen.pdf](./2026_DINA_Qmatrix_Robustness_Chen.pdf)
    - 論文預印本 / Preprint version.
    - **2026-02-02**: 上傳初稿 (V1) / Uploaded initial draft.
-2. **R-Code**: 
+2. **R-Code**: [DINA_Robustness_Sim.R](./DINA_Robustness_Sim.R)
    - 統計方法實作腳本（包含蒙地卡羅模擬與圖表繪製）/ R scripts for implementation.
    - **2026-02-06**: 修正模擬腳本與優化視覺化代碼 / Refined simulation scripts and optimized code.
-3. **Supplementary Data**:
+3. **Supplementary Data**: 
    - 包含模擬結果 CSV 檔。
 
 ---
