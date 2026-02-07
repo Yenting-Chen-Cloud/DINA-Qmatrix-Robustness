@@ -20,7 +20,7 @@ This project contains the preprint of a research paper and the associated R code
 1. **Manuscript (PDF)**: 
    - 論文預印本 / Preprint version.
    - **2026-02-02**: Uploaded initial draft.
-   - **2026-02-07**: Under submission / Coming soon (Link to PsyArXiv will be updated shortly).
+   - **2026-02-07**: Under submission / pre-moderation.
 2. **R-Code**:
    - 統計方法實作腳本（包含蒙地卡羅模擬與圖表繪製）/ R scripts for implementation.
    - **2026-02-06**: 修正模擬腳本與優化視覺化代碼 / Refined simulation scripts and optimized code.
@@ -61,7 +61,7 @@ Please execute with the following order:  `packages.r`,`functions.r`,`DINA_Robus
 如果您使用了本專案的代碼或資料，請參考以下方式引用：
 If you use the code or materials from this project, please cite as follows:
 
-Chen, Y.-T., & Shih, C.-L. (2026). A Theoretical Note on the Asymptotic Robustness of the DINA Model Under Q-Matrix Misspecification. Retrieved from [PsyArXiv Link]
+Chen, Y.-T., & Shih, C.-L. (2026). A Theoretical Note on the Asymptotic Robustness of the DINA Model Under Q-Matrix Misspecification. [PsyArXiv uses pre-moderation]
 
 ---
 
