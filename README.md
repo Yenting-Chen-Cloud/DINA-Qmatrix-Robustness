@@ -20,11 +20,38 @@ This project contains the preprint of a research paper and the associated R code
 1. **Manuscript (PDF)**: [2026_DINA_Qmatrix_Robustness_Chen.pdf](./2026_DINA_Qmatrix_Robustness_Chen.pdf)
    - 論文預印本 / Preprint version.
    - **2026-02-02**: 上傳初稿 (V1) / Uploaded initial draft.
-2. **R-Code**: [DINA_Robustness_Sim.R](./DINA_Robustness_Sim.R)
+2. **R-Code**:
    - 統計方法實作腳本（包含蒙地卡羅模擬與圖表繪製）/ R scripts for implementation.
    - **2026-02-06**: 修正模擬腳本與優化視覺化代碼 / Refined simulation scripts and optimized code.
 3. **Supplementary Data**: 
    - 包含模擬結果 CSV 檔。
+
+---
+
+## 程式碼說明 / Code Structure
+為了提升可讀性與維護性，本研究之 R 實作代碼已拆分為以下模組：
+To enhance readability and maintainability, the R implementation scripts for this study have been organized into the following modules:
+
+1. **[DINA_Robustness_Simulation_Main.r](./DINA_Robustness_Simulation_Main.r)**: 
+   - **主執行程式 / Main Script**. 
+   - 負責整合所有模組並執行蒙地卡羅模擬核心流程。
+   - Coordinates all modules and executes the core Monte Carlo simulation workflow.
+2. **[functions.r](./functions.r)**: 
+   - **自定義函數 / Custom Functions**.
+   - 存放計算屬性一致性（如 Cohen's Kappa）之函數。
+   - Contains functions for calculating attribute consistency (e.g., Cohen's Kappa).
+3. **[graph.r](./graph.r)**: 
+   - **繪圖與視覺化 / Visualization**.
+   - 負責處理模擬結果之資料清理與使用 `ggplot2` 繪製穩健性分析圖表。
+   - Handles data cleaning of simulation results and generates robustness analysis plots using `ggplot2`.
+4. **[packages.r](./packages.r)**: 
+   - **環境配置 / Environment Setup**.
+   - 自動偵測並安裝研究所需之 R 套件（如 `GDINA`, `tidyverse`）。
+   - Automatically detects and installs required R packages (e.g., `GDINA`, `tidyverse`).
+
+## 執行順序 / Execution Order
+建議依照以下順序執行： `packages.r`,`functions.r`,`DINA_Robustness_Simulation_Main.r`,`graph.r`。
+Please execute with the following order:  `packages.r`,`functions.r`,`DINA_Robustness_Simulation_Main.r`,`graph.r` .
 
 ---
 
